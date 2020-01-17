@@ -23,7 +23,9 @@ import {
 } from '@superset-ui/legacy-preset-chart-big-number';
 import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
-import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
+// import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
+// import CountryMapChartPlugin from '../visualizations/CountryMap';
+import CountryMapChartPlugin from '../CountryMap';
 import EventFlowChartPlugin from '@superset-ui/legacy-plugin-chart-event-flow';
 import ForceDirectedChartPlugin from '@superset-ui/legacy-plugin-chart-force-directed';
 import HeatmapChartPlugin from '@superset-ui/legacy-plugin-chart-heatmap';

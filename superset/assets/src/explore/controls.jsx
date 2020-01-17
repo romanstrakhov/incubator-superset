@@ -603,7 +603,7 @@ export const controls = {
   select_country: {
     type: 'SelectControl',
     label: t('Country Name'),
-    default: 'France',
+    default: 'Russia',
     choices: [
       'Belgium',
       'Brazil',
@@ -618,6 +618,7 @@ export const controls = {
       'Korea',
       'Liechtenstein',
       'Morocco',
+      'Moscow',
       'Myanmar',
       'Netherlands',
       'Portugal',
@@ -634,6 +635,7 @@ export const controls = {
     ].map(s => [s, s]),
     description: t('The name of the country that Superset should display'),
   },
+
 
   freq: {
     type: 'SelectControl',
